@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>BTC Mood-o-Meter</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-gauge@4"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <!-- SVG Logo will go here -->
+      <h1>BTC Mood-o-Meter</h1>
+    </div>
+    <div class="header-image">
+      <!-- Header image will go here -->
+    </div>
+  </header>
+
+  <main>
+    <div class="gauge-container">
+      <canvas id="gauge" width="300" height="150"></canvas>
+      <p id="outcome" class="outcome-text"></p>
+    </div>
+  </main>
+
+  <script src="gauge.js"></script>
+</body>
+</html>
